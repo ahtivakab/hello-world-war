@@ -1,6 +1,6 @@
 pipeline{
    agent {
-  label 'slave-machine'
+  label 'Slave-Node'
 }
     options {
   buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '5', numToKeepStr: '5')
